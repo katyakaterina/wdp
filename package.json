@@ -1,0 +1,21 @@
+{
+  "name": "wdp",
+  "version": "1.0.0",
+  "description": "testing web site",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "wdp"
+  },
+  "author": "kate",
+  "license": "ISC"
+}
