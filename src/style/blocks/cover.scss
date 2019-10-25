@@ -1,0 +1,11 @@
+.cover{
+    &__link{
+        @include textLink;
+        color: $white;
+        border: 3px solid $white;
+    }
+    &__link:hover{
+       @include textLinkHover;
+       border: 3px solid $green;
+    }
+}

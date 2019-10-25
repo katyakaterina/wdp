@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "testing web site",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "imagemin": "^7.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "mollify": "^2.0.2"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",

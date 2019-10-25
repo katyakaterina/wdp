@@ -2,5 +2,14 @@
     &__list{
         display: flex;
         list-style: none;
+        padding: 0;
+        justify-content: space-evenly;
+        height: 123px;
+        align-items: center;
+        
+    }
+    &__item--logo{
+        flex-basis: 300px;
+        font-weight: 700;
     }
 }

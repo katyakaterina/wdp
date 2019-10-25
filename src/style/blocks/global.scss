@@ -1,0 +1,30 @@
+$textMain: #212121;
+
+body{
+    font-family: "Open Sans", sans-serif;
+    min-width: 320px;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    color: $textMain;
+}
+main{
+    margin: 0 auto;
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: $textMain;
+}
+// @media (min-width: 320px) and (max-width: 1600px)  {
+//     header, body{
+//         margin: 0 auto;
+//         min-width: 320px;
+//         max-width: 1600px;
+//         width: 100%;
+//     }
+// }

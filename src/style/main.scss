@@ -1,2 +1,6 @@
-@import './src/style/global.scss';
+@import './variables';
+@import './mixins';
+
+@import './blocks/global.scss';
 @import './blocks/header.scss';
+@import './blocks/cover.scss';
