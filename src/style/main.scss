@@ -1,6 +1,7 @@
-@import './variables';
-@import './mixins';
+@import './_variables';
+@import './_mixins';
 
 @import './blocks/global.scss';
 @import './blocks/header.scss';
 @import './blocks/cover.scss';
+@import './blocks/aboutUs.scss';

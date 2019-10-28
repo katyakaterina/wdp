@@ -9,6 +9,8 @@ var browserSync = require('browser-sync').create();
 const imagemin = require('imagemin');
 const imageminJpegtran = require('imagemin-jpegtran');
 const imageminPngquant = require('imagemin-pngquant');
+const imageminSvgo = require('imagemin-svgo');
+
 
 sass.compiler = require('node-sass');
 
@@ -22,13 +24,14 @@ gulp.task('style', function(){
 });
 
 gulp.task('img', function(){
-    // return gulp.src('./img/*.jpg,png')
+    // return gulp.src('src/img/*.jpg,png')
     (async () => {
-       const files = await imagemin(['src/img/*.{jpg,png}'], {
+       const files = await imagemin(['src/img/*.{jpg,png,svg}'], {
             destination: 'dist/img',
             plugins: [
                 imageminJpegtran(),
-                imageminPngquant()
+                imageminPngquant(),
+                imageminSvgo()
             ]
         });
      

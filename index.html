@@ -3,6 +3,8 @@
     <head>
         <meta charset="Utf-8">
         <link rel="stylesheet" href="./dist/css/main.css">
+        <link rel="preload" href="./dist/css/main.css" as="style">
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap&subset=latin-ext" rel="stylesheet">
         <title>Web Development Project</title>
 
@@ -19,6 +21,13 @@
                         <li class="header__item"><a href="#" class="header__link">Portfolio</a></li>
                         <li class="header__item"><a href="#" class="header__link">Blog</a></li>
                         <li class="header__item"><a href="#" class="header__link">Contact us</a></li>
+                        <li class="header__item header__search">
+                            <form class="header__form">
+                                <label></label>
+                                <input type="search" id="search">
+                                <button class="submit"></button>
+                            </form>
+                        </li>
                     </ul>
                 </div>
             </nav>
