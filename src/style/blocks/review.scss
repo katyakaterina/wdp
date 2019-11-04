@@ -1,0 +1,110 @@
+.review{
+&__box{
+    height: 1612px;
+}
+&__list{
+    display: flex;
+    width: 685px;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 auto;
+
+
+}
+&__item{
+    @include textLink;
+    padding: 20px 30px;
+    border: 3px solid $green;
+}
+&__item:hover{
+    background: $green;
+    color: $white;
+}
+    &__wrap{
+        display: grid;
+        grid-template-columns: 370px 370px 370px;
+        grid-template-rows: 370px 370px;
+        grid-gap: 30px;
+        justify-content: center;
+    }
+    &__content:nth-child(1){
+        background: url(./../img/reviewOne@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:hover:nth-child(1){
+        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./../img/reviewOne@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:nth-child(2){
+        background: url(./../img/reviewTwo@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:hover:nth-child(2){
+        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./../img/reviewTwo@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:nth-child(3){
+        background: url(./../img/reviewThree@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:hover:nth-child(3){
+        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./../img/reviewThree@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:nth-child(4){
+        background: url(./../img/reviewFour@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:hover:nth-child(4){
+        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./../img/reviewFour@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:nth-child(5){
+        background: url(./../img/reviewFive@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:hover:nth-child(5){
+        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./../img/reviewFive@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:nth-child(6){
+        background: url(./../img/reviewSix@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__content:hover:nth-child(6){
+        background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(./../img/reviewSix@2x.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__button{
+        @include textLink;
+        background: $green;
+        padding: 28px 60px;
+        color: $white;
+        border: none;
+    }
+}
+// background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),

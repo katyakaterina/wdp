@@ -1,12 +1,50 @@
 .about{
-    height: 680px;
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 672px;
+    width: 100%;
 
-    // &__feature::before{
-    //     content: '\f0ac';
-    //     width: 50px;
-    //     height: 50px;
-    //     background: url(./../img/globe-solid.svg);
-    //     background-repeat: no-repeat;
-    // }
+    &__headline{
+        font-size: 30px;
+    }
+    &__text{
+        @include subTitle;
+    }
+    &__box:first-child{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    &__box:last-child{
+        display: flex;
+        // width: 1170px;
+        justify-content: space-around; 
+        // margin: 0 auto;       
+    }
+
+    &__feature{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__icon{
+        order: 1;
+    }
+    &__title{
+        order: 2;
+        font-size: 20px;
+    }
+    &__info{
+        order: 3;
+        width: 255px;
+        margin: 0;
+    }
+
+}
+.fas, .fab{
+   font-size: 62px;
 }

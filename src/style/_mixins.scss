@@ -9,3 +9,7 @@
     background-color: $green;
     color: $white;
 }
+@mixin subTitle{
+    font-size: 15px;
+    width: 630px;
+}
