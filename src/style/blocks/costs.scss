@@ -1,0 +1,23 @@
+.cost{
+    background: $gray;
+    height: 1142px;
+    &__box{
+        display: grid;
+        grid-template-columns: 370px 370px 370px;
+        grid-template-rows: 668px 668px 668px;
+        grid-gap: 30px;
+        justify-content: center;
+    }
+    &__flat{
+        // position: relative;
+        background: $white;
+    }
+    // &__flat::before{
+    //     position: absolute;
+    //     content: '';
+    //     width: 370px;
+    //     height: 210px;
+    //     background: $violet;
+
+    // }
+}
