@@ -1,6 +1,7 @@
 .cost{
     background: $gray;
     height: 1142px;
+
     &__box{
         display: grid;
         grid-template-columns: 370px 370px 370px;
@@ -11,6 +12,42 @@
     &__flat{
         // position: relative;
         background: $white;
+    }
+    &__name{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    &__list{
+        font-size: 17px;
+        font-weight: 300;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    &__item::before{
+        content: '';
+        position: absolute;
+        width: 174px;
+        height: 1px;
+        top: 32px;
+        left: 100px;
+        background: $line;
+    }
+    &__item{
+        position: relative;
+        padding-bottom: 52px;
+    }
+    &__list, &__price{
+        font-size: 17px;
+        font-weight: 300;
+    }
+    &__link{
+        @include textLink;
+    }
+    &__link:hover{
+        @include textLinkHover;
+        border: 3px solid $green;
     }
     // &__flat::before{
     //     position: absolute;
