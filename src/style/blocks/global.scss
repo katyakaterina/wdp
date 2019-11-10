@@ -23,6 +23,18 @@ a{
 .title{
     @include title;
 }
+.fa-facebook-square{
+    color: $facebook;
+}
+.fa-twitter-square{
+    color: $twitter;
+}
+.fa-weixin{
+    color: $wechat;
+}
+.fa-chrome{
+    color: $green;
+}
 // @media (min-width: 320px) and (max-width: 1600px)  {
 //     header, body{
 //         margin: 0 auto;
