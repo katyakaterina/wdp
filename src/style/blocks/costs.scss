@@ -20,6 +20,10 @@
         // position: relative;
         background: linear-gradient(-187deg, $violet 31%, $white 31%);
     }
+    &__flat:hover{
+        box-shadow: 0 3px 20px 3px rgba(0, 0, 0, 0.2) ;
+        cursor: pointer;
+    }
     &__name{
         font-size: 25px;
         font-weight: 400;
