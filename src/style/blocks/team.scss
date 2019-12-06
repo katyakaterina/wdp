@@ -1,0 +1,39 @@
+
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 1095px;
+
+    &__slider{
+        height: 625px;
+    }
+
+    &__slider-item{
+        display: grid;
+        grid-template-columns: 370px 370px 370px;
+        grid-template-rows: 486px;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 30px;
+    }
+    &__box{
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__paragraph{
+        width: 630px;
+    }
+    &__name, &__text, &__link-container{
+        text-align: center;
+    }
+    &__name{
+        font-weight: 700;
+    }
+    &__link{
+        margin: 5px;
+    }
+    // &__slider-content{
+    //     background-image: url(./img/teamMemberOne@2x.jpg)
+    // }
+}

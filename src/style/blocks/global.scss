@@ -2,8 +2,8 @@ $textMain: #212121;
 
 body{
     font-family: "Open Sans", sans-serif;
-   
-    max-width: 1680px;
+   min-width: 940px;
+   max-width: 1660px;
     width: 100%;
     margin: 0 auto;
     color: $textMain;
