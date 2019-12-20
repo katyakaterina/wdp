@@ -18,9 +18,15 @@
     }
     &__form{
         position: relative;
-        height: 20px;
-        margin: 0 auto;
+        width: 130px;
+        display: flex;
+        flex-direction: row-reverse;
     }
+    // &__item:last-child{
+    //     display: flex;
+    //     height: 60px;
+    //     align-items: center;
+    // }
 }
 #search{
     position: absolute;
@@ -28,23 +34,30 @@
     border: none;
     outline: none;
     transition: .4s cubic-bezier(0, 0.8, 0, 1);
-    background: transparent;
-    top: 0;
-    right: 0;
+    top: 2px;
+    right: 41px;
     z-index: 2;
+    width: 130px;
+    height: 30px;
     // padding-top: 30px;
 }
 #search:focus{
     width: 200px;
     z-index: 1;
     border-bottom: 2px solid $textMain;
-    margin: 30px 0 0 0;
+    top: 0;
+    left: -51px;
+    margin: 15px 0 0 0;
+    background: none;
 }
 .submit{
-    background: url(./../img/search-solid.svg);
-    background-repeat: no-repeat;
-    width: 19px;
-    height: 19px;
+    background: transparent;
+    width: 20px;
+    height: 30px;
     border: none;
     outline: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: url(./../img/search-solid.svg);
+    background-repeat: no-repeat;
 }

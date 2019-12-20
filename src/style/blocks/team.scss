@@ -37,3 +37,14 @@
     //     background-image: url(./img/teamMemberOne@2x.jpg)
     // }
 }
+.fab{
+    font-size: 50px;
+    border: 1px solid $gray;
+    border-radius: 11px;
+    background: $gray;
+    width: 60px;
+    height: 60px;
+}
+i::before{
+    vertical-align: middle;
+}
