@@ -15,7 +15,7 @@ const imageminSvgo = require('imagemin-svgo');
 sass.compiler = require('node-sass');
 
 gulp.task('style', function(){
-    return gulp.src('src/style/**/*.scss')
+    return gulp.src('./src/style/main.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(csso())
     .pipe(gulp.dest('dist/css'))
